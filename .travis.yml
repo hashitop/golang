@@ -1,0 +1,10 @@
+language: go
+script: go build main.go
+deploy:
+  provider: releases
+  api_key:
+    secure: JHFmqXR9wPHXe6A82OQwb9o2u7xp+TY0JbQY/Fg1RKYQoecO59Kdo9syIxidnghm9vdqoROcbZNsdeZ+iOAHtzLQHDJ+p7hSohL8umRmYLjtVmY3dbYpXloxlo1NXUrBmDH7pGEBdtZA3+oigi4focofhlhaC+wBQ/jFRSAo1lT78BIduspTs+ZqrADkjkbwRg5GSXybU9ViX5Cc3Yxug1aLTz1qrfIvHs2l95S+905EJ5J3+3auLCJI23z7YI1u5MIit+sZCSo1nTQKy4jgXE91XmEuEtHn3jGUPSh0KMIpgOuDBPYY7I+jryRJxOEj8R9ndULRxiD5l/Kq/gVNSDGy+rr5q+YCIGQYf4zvraFGeHyTEXLJUIGNvH0f5TUIlCs5i5w2OUUMFtAPCEZPgfdGN4q9cEtdRayWGaxEecB08f98UAmvZhfw6Olp7jSPbVFzlmYV7ZAIVOPMMQ/Zy3nK8pXVvabCGk3Ssdeuj1Wtjb0HFIMfHHk+4uyvM4zNfvnDijOn88F4Dx0jdodmtH5YlsNqwwwI/7BDrmg9eXAhg1cWfAI6B6R0VYIfMjYG3ajSv2o4hVWxu7Cw6+JbAO9amPBvF7EtgwJefNEGT9c7l41Ni0m5Gzqn1JLdr0ww/2qwOukbVdisFcp5Z4Z3X3ZJmyF4MzcNLmMou4HPJS0=
+  file: main
+  on:
+    repo: hashitop/golang
+    tags: true
