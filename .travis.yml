@@ -10,3 +10,4 @@ deploy:
   on:
     repo: hashitop/golang
     tags: true
+  skip_cleanup: true
