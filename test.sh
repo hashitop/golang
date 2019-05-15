@@ -1,8 +1,12 @@
 #!/usr/bin/env bash
 
-out=`go run main.go`
+#Build main application
+go build main
 
-# we should check out == hello
+#Execute main application
+out=`go run . main`
+
+# Check if the output from main application equals to "hello world"
 if [ "${out}" == "hello world" ]; then
   echo "GOOD: test pass"
 else
