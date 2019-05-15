@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #Build main application
-go build main
+go build main.go
 
 #Execute main application
 out=`go run . main`
