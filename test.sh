@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-out=$(go run . main.go)
+out=`go run main.go`
 
 # we should check out == hello
-if [ "${out}" == "hello" ];then
+if [ "${out}" == "hello world" ]; then
   echo "GOOD: test pass"
 else
   echo "BAD: test fail"
