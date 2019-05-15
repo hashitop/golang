@@ -6,7 +6,7 @@ deploy:
   provider: releases
   api_key:
     secure: x+2ucCjfbOc8icGtCnvwhBenRNZF+nbjHAdxEFFnXGL/+eNNniA1U2+JZNhOEHsSPSfg53ouoSUmYYjQJz8Ed+oGFopO6IJ9CxKSb6H0KvrKMqoemIIowm2mfJYBgiB1YIBrlGs3MGwvWVxmNQNPEo1lDlj6M02uZXVPF2zuP5gUp58BDjqB87dEacxoNA+AVbvYgIkNP1K9xsTmBBlsR4VCWaaquU7jKd9KJ+c+/3GQxtQ8RGBojqR5c2BJpZCLGKFa+btwn3bXdMahPgMJ0rGrU7NSGMlsrx/nigeATYCLXVs1Q2SlbLzNrVfHaZl5qFByuIb+R64QMEMNRpO3TubgvPzJk+QTSgh56ziir3o071+TpA1K1vye5og8fe72jpEyOdBd54CAqVhhMk3WdaY2DPO1wVyDdltwANMBNI7986+a9KrsICEkWoc9/Nclv8XOYQlMqxHBWXu1f/7udloZk5RWyj8c5nPenfL69vQZxm2Wo0L6cx6vARS5otJT58DLILx25X4kfW/OaBi6LyDvI3Jjl3DzOawHSYg/w3xd0x0u+tHjuO0h0MwDA3uDwDcT/9SQHyM7o1AhhDq/ssC62MpNCeeZTDjMNw8uOREKpPTd+EcbSJXbov7b/YXYY8N2O711++5GWYcGO/WYU6fY4RMxmCNWxY/gEAyj5SM=
-  file: main
+  file: main.go
   on:
     repo: hashitop/golang
     tags: true
