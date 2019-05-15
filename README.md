@@ -4,7 +4,7 @@ This project is a minimal sample for Go Hello World application.
 
 ### Download Installer
 
-Go language requires runtime that executes compiled binary files. The runtime is OS dependent so please download the installer of your choice.
+Go language requires compiler that compiles source files and runtime that executes compiled binary files. The executable for compiler and runtime is OS dependent so please download the installer of your choice.
 
 * [Windows](https://dl.google.com/go/go1.12.5.windows-amd64.msi)
 * [MacOS](https://dl.google.com/go/go1.12.5.darwin-amd64.pkg)
