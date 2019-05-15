@@ -35,5 +35,10 @@ At the location where `main` file is located, run command:
 
 `go run . main`
 
+### Test Hello World
+
+At the location where `main` file is located, run command:
+
+`bash test.sh`
 
 
