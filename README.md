@@ -1,6 +1,10 @@
 # Hello World
 
+This project is a minimal sample for Go Hello World application.
+
 ### Download Installer
+
+Go language requires runtime that executes compiled binary files. The runtime is OS dependent so please download the installer of your choice.
 
 * [Windows](https://dl.google.com/go/go1.12.5.windows-amd64.msi)
 * [MacOS](https://dl.google.com/go/go1.12.5.darwin-amd64.pkg)
@@ -8,9 +12,10 @@
 
 After download, please follow the [install instruction](https://golang.org/doc/install) for your operating system.
 
-### Go executable in your PATH
+### Ensure Go executable in your PATH
 
-Open a terminal and run:
+The install instruction provides steps to incorporate Go runtime in system/user PATH to be accessible anywhere.
+Please make sure that the steps have been correctly performed by open up a terminal and run:
 
 `go version`
 
