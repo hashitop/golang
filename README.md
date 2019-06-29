@@ -55,12 +55,14 @@ Some interesting things you can learn from a **hello world** app
 
 ##### Package
 
-Package is a collection related go files with the rule is the first line of each go file is required to have the package name where it belongs to
+Package is a collection related go files with the rule is the first line of each go file is required to have the package name where it belongs to.
 
 There are two types of package
 
 - Executable [package **main**]
 - Reusable [other packages]
+
+The name of packages can also be different from the actual directory name where they are located.
 
 #### Import
 
@@ -69,3 +71,5 @@ The `import` is declared to get access to functions and libraries defined in the
 #### Function [func]
 
 Function declaration uses keyword **func** followed by name of the function with parenthesis for the list of arguments if needed. A pair of open and end curly braces is used to begin and end function definition.
+
+A key takeaway note for this basic `hello world` app is the function `main` is required as entry point of the executable. The **main** package can have as many files as it needs but there will be only **ONE** file with **main** function declaration.
