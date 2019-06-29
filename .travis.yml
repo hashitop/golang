@@ -1,5 +1,6 @@
 language: go
 script:
+- cd 01-helloworld
 - go build main.go
 - bash test.sh
 deploy:
