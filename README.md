@@ -73,3 +73,12 @@ The `import` is declared to get access to functions and libraries defined in the
 Function declaration uses keyword **func** followed by name of the function with parenthesis for the list of arguments if needed. A pair of open and end curly braces is used to begin and end function definition.
 
 A key takeaway note for this basic `hello world` app is the function `main` is required as entry point of the executable. The **main** package can have as many files as it needs but there will be only **ONE** file with **main** function declaration.
+
+### Cards
+
+Another sample project is about cards and it's located at `02-cards`
+
+#### Variable declaration
+
+- var var_name string = "a var"
+- 
