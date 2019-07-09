@@ -73,3 +73,54 @@ The `import` is declared to get access to functions and libraries defined in the
 Function declaration uses keyword **func** followed by name of the function with parenthesis for the list of arguments if needed. A pair of open and end curly braces is used to begin and end function definition.
 
 A key takeaway note for this basic `hello world` app is the function `main` is required as entry point of the executable. The **main** package can have as many files as it needs but there will be only **ONE** file with **main** function declaration.
+
+### Cards
+
+Another sample project is about cards and it's located at `02-cards`
+
+#### Variable declaration
+
+GO is strict type language therefore variable declaration requires explicit data type, however, the language is flexible and smart enough to be able to figure out data type at compile time by using some hint.
+
+##### Declaring variable with explicit type
+
+
+```var var_name string = "a var"```
+
+##### Declaring variable without explicity type
+
+```var_name := "Data"```
+
+By using `:=`, GO will try to figure out from the data on the right hand to determine the data type at compile time.
+To reassign value to the variable, it is no longer required to use `:=`, only `=` is sufficient.
+
+``` var_name = "Updated data"```
+
+#### Function with Return value [func]
+
+A function can return value by using keyword `return` following by the returning value.
+Go requires explicit return type declaration by appending the data type next to parenthesis and before the begin curly braces.
+
+```
+func newCard() string {
+	return "Five of Diamonds"
+}
+```
+
+#### Slice and For Loop
+
+Go uses square bracket to declare slice (array) with data type and the data inside curly braces.
+
+```cards := []string{"Ace of Diamonds", newCard()}```
+
+The `append` function can be used to add item into existing slice. The slice object returned by append function is new slice object with the appended item.
+
+```cards = append(cards, "a card")```
+
+Iteration though each item of slice can be done with `for` loop
+
+```
+for i, card := range cards {
+	fmt.Println(i, card)
+}
+```
